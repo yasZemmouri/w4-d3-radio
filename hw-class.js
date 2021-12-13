@@ -64,6 +64,9 @@ class Animal {
     this.age = age;
     this.legs = legs;
   }
+  genericSound() {
+    console.log("This is a generic animal soud: WoOOOOO");
+  }
   food() {
     console.log(`I'm ${this.name} I eat everything`);
   }
